@@ -1,0 +1,41 @@
+p{
+    color: red;
+}
+
+h3{
+    color: green;
+}
+
+.textoUno{
+    color: blueviolet;
+}
+
+#TextoUnico1{
+    color: chartreuse;
+}
+
+#divContenido{
+    /*Color de fondo*/
+    background-color: aliceblue;
+    /*Alto de mi div*/
+    /* height: 150px;    */
+    width: 33%;
+    text-align: center;
+    margin-top: 100px;
+    /*MArgen de izquierda*/
+    margin-left: 33%;
+    margin-bottom: 200px;
+    /*MArgen interno*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+body{
+    background-image: url('../img/fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+        
+}
