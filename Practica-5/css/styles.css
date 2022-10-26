@@ -1,0 +1,90 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: aliceblue;
+}
+
+#contentBannerContacto{
+    background-image: url('../img/fondo-contacto.jpg');
+    /*height: 400px;*/
+    width: 100%;
+    
+}
+
+#fondoBannerContacto{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(4,124,230,0.748);
+    padding-bottom: 100px;
+}
+
+#contentTexto{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url('../fonts/BebasNeue-Regular.woff');
+}
+
+@font-face {
+    font-family: "BebasNeue-2";
+    src: url('../fonts/BebasNeue-Regular.otf');
+}
+
+h1{
+    font-family: "BebasNeue";
+    font-size: 25px;
+}
+
+h3{
+    font-family: "BebasNeue";
+    font-size: 25px;
+    line-height: 30px;
+}
+
+#contentForm{
+    background-color: rgb(255, 255, 255);
+    width: 33%;
+    height: 400px;
+    margin-left: 33%;
+    text-align: center;
+    margin-top: -100px;
+    padding-top: 50px;
+    -webkit-box-shadow: 4px 9px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 9px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 9px 10px 0px rgba(0,0,0,0.75);
+    margin-bottom: 50px;
+}
+
+input{
+    width: 350px;
+    height: 25px;
+    
+    margin-bottom: 20px;
+    border: 1px solid rgb(199, 204, 208);
+}
+
+button{
+    width: 170px;
+    height: 30px;
+    border-radius: 20px;
+    background: -webkit-linear-gradient(left, rgba(73,155,234,1) 80%, rgba(32,124,229,1) 100%);
+    border-color: white;
+    color: white;
+}
+
+button:hover{
+-webkit-box-shadow: 4px 4px 24px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 4px 24px 0px rgba(0,0,0,0.75);
+box-shadow: 4px 4px 24px 0px rgba(0,0,0,0.75);
+
+width: 180px;
+height: 35px;
+
+}
