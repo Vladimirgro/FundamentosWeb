@@ -1,0 +1,55 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-image: url('../img/fondo.png');
+}
+
+img{
+    width: 20%;
+    height: 20%;    
+    margin-top: -10%;
+}
+
+#contentForm{
+    background-color: rgb(148, 224, 253);
+    width: 35%;
+    height: 300px;
+    margin-left: 30%;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 0px;
+    -webkit-box-shadow: 4px 9px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 9px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 9px 10px 0px rgba(0,0,0,0.75);
+    margin-bottom: 50px;
+}
+
+input{    
+    width: 350px;
+    height: 25px;    
+    margin-bottom: 15px;
+    border: none;   
+}
+
+button{
+    width: 350px;
+    height: 30px;    
+    background: #28B463;
+    border-color: #28B463;
+    color: rgb(246, 250, 247);
+}
+
+button:hover{
+    -webkit-box-shadow: 4px 4px 24px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 24px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 24px 0px rgba(0,0,0,0.75);
+    
+    width: 350px;
+    height: 30px;
+    
+    }
+
+h1{
+    font-style: normal;
+}
